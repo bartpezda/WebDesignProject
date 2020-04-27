@@ -1,0 +1,205 @@
+/* Stylesheet */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;;
+}
+
+.navigation-bar {
+    position: fixed;
+    display: block;
+    width: 260px;
+    background-color: #FFC300;
+    height: 100%;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+nav ul li a {
+    color: #222222;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0;
+}
+
+nav ul li a:hover {
+    background-color: rgb(228, 175, 0);
+}
+
+.main {
+    padding-left: 260px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: block;
+    background-image: url("startpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.trainer {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.trainer h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+    padding: 15px;
+    background-color: #EC7063;
+}
+
+.about h2, p {
+    padding: 10px 0;
+}
+
+.about img {
+    width: 100%;
+    padding: 15px 0;
+}
+
+.offer {
+	width: 100%;
+	background-color: #99ebff;
+	height: 100%;
+}
+
+.offer p {
+    padding: 20px;
+}
+
+.one h1 {
+    padding-top: 150px;
+    text-align: center;
+    font-size: xx-large;
+	font-family: 'Lato', sans-serif;;
+}
+
+.one {
+	
+	width: 33.33%;
+	background-color: #99ebff;
+	height: 400px;
+	float: left;
+	
+}
+
+.two {
+	
+	width: 33.33%;
+	background-color: #e6e6e6;
+	height: 400px;
+	float: left;
+}
+
+.three {
+	
+	width: 33.33%;
+	background-color: #99ebff;
+	height: 400px;
+	float: left;
+}
+
+.four {
+	
+	width: 33.33%;
+	background-color: #EC7063;
+	height: 400px;
+	float: left;
+}
+.five {
+	
+	width: 33.33%;
+	background-color: #99ebff;
+	height: 400px;
+	float: left;
+}
+
+.six {
+	
+	width: 33.33%;
+	background-color: #FFC300;
+	height: 400px;
+	float: left;
+}
+
+.seven {
+	background-color: #99ebff;
+	padding-bottom: 50px;
+}
+
+
+.offer img {
+	margin-top: 50px;
+	margin-left: 30px;
+}
+
+.offer h3 {
+	padding: 50px;
+	font-family: 'Lato', sans-serif;
+	color: #222222;
+}
+
+
+.transformations {
+	background-color: #EC7063;
+	padding: 70px 0;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 32.3%;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .clearfix {
+      clear: both;
+      overflow: auto;
+  }
+
+  .contact {
+      background-color:#EC7063;
+      padding: 20px;
+      
+  }
